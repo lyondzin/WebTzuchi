@@ -1,3 +1,36 @@
-.header{
-    
+.hero-banner {
+  height: 60vh;
+  background: url('Main-Logo.png') center / cover no-repeat;
+  position: relative;
+}
+.hero-banner::after {
+  content: "";
+  position: absolute;
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.hero-banner .container {
+  position: relative;
+  z-index: 1;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.card {
+  border: none;
+  background-color: #f8f9fa;
+}
+.card p {
+  font-style: italic;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
 }
