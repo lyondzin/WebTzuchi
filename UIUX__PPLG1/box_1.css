@@ -1,0 +1,17 @@
+/* Flex terbagi menjadi 2 */
+/* column & row */
+/* mengatur alur menggunakan flex-direction */
+
+.bapak{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    display: flex;
+    color: white;
+    flex-direction: column;
+}
+.anak{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}

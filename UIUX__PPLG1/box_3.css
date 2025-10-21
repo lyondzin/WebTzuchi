@@ -1,0 +1,53 @@
+.up{
+    background-color: white;
+    border: solid 1px ;
+    width: 100%;
+    height: 50%;
+  
+}
+
+.down{
+    background-color: red;
+    border: solid 1px;
+    width: 100%;
+    height: 50%;
+}
+
+.circle_up{
+    background-color: red;
+    border: 1px solid red;
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    left: 60;
+    top: 82;
+    border-top-left-radius: 100px; 
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    
+}
+
+.circle_down{
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid white;
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    left: 60;
+    top: 132;
+    border-top-left-radius: 0; 
+    border-top-right-radius: 0; 
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+  
+}
+
+.flag{
+    width: 400px;
+    height: 250px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}

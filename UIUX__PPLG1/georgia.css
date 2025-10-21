@@ -1,0 +1,48 @@
+.flag{
+    width: 400px;
+    height: 250px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.tengah{
+    width: 400px;
+    height: 50px;
+    background-color: red;
+    top: 110px;
+    position: absolute;
+}
+
+.tengahatas{
+    width: 50px;
+    height: 250px;
+    background-color: red;
+    position: absolute;
+    left: 180px;
+}
+
+.gambar{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+
+.gambar2{
+    position: absolute;
+    left: 50px;
+    top: 170px;
+}
+
+.gambar3{
+    position: absolute;
+    left: 280px;
+    top: 20px;
+}
+
+.gambar4{
+    position: absolute;
+    left: 280px;
+    top: 170px;
+}
+
+

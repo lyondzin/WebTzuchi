@@ -1,0 +1,19 @@
+.flag{
+    width: 400px;
+    height: 250px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.circle{
+    background-color: red;
+    border-top-left-radius: 100px; 
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    left: 120px;
+    top: 50px;
+}

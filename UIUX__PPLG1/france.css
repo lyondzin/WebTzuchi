@@ -1,0 +1,25 @@
+.flag{
+    width: 400px;
+    height: 250px;
+    background-color: black;
+    display: flex;
+    border: 1px solid black
+}
+
+.kiri{
+    background-color: #002654;
+    border: 1px solid white;
+    width: 33%;
+}
+
+.tengah{
+    background-color: white;
+    width: 33%;
+    border: 1px solid white;
+}
+
+.kanan{
+    background-color:  #ED2939;
+    width: 33%;
+    border: 1px solid white;
+}
